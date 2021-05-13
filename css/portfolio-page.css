@@ -97,3 +97,36 @@
   filter: saturate(0);
 }
 
+.branding {
+  position: fixed;
+  bottom: 30px;
+  width: 100%;
+}
+
+.branding-detail {
+  background: white;
+  padding: 10px 0;
+}
+.branding-detail h1,
+.branding-detail p {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.extra-branding-info p {
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-size: 1.1em;
+  letter-spacing: 2px;
+}
+
+.social {
+  font-size: 2em;
+}
+
+.email {
+  font-size: 1.3em;
+}

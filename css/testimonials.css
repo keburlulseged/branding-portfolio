@@ -144,6 +144,9 @@
   transform: translate3d(0, 0px, 0);
   opacity: 1;
 }
+#testimonials .testimonials-container .test-side .hidden {
+  display: none;
+}
 @media only screen and (max-width: 1100px) {
   #testimonials .testimonials-container {
     display: grid;

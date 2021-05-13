@@ -101,11 +101,11 @@
   grid-row: 1 / 2;
 }
 #portfolio .portfolio-container .box.image1 .image {
-  background: url("https://1stwebdesigner.com/wp-content/uploads/2013/07/inspiration-flatdesign-agency-7.png");
+  background: url("../img/mauro-lima-F5K3kuNutsA-unsplash.jpeg");
   /* background: #e6ce1d; */
   height: 100%;
   width: 100%;
-  background-position: top center;
+  background-position: center 25%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -115,11 +115,11 @@
   grid-row: 1 / 3;
 }
 #portfolio .portfolio-container .box.image2 .image {
-  background: url("https://cdn-cashy-static-assets.lucidchart.com/Lucidpress/blog/Azure-Magazine.jpg");
+  background: url("../img/brayden-law-EsiNcJmf_uQ-unsplash.jpeg");
   /* background: #e6ce1d; */
   height: 100%;
   width: 100%;
-  background-position: top center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -129,11 +129,11 @@
   grid-row: 2 / 3;
 }
 #portfolio .portfolio-container .box.image3 .image {
-  background: url("http://www.vandelaydesign.com/wp-content/uploads/Vitrines-sur-la-releve-615x336.png");
+  background: url("../img/christian-koch-D_4R9CcYZOk-unsplash.jpeg");
   /* background: #e6ce1d; */
   height: 100%;
   width: 100%;
-  background-position: top center;
+  background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -143,11 +143,11 @@
   grid-row: 2 / 3;
 }
 #portfolio .portfolio-container .box.image4 .image {
-  background: url("https://old.marcofolio.net/images/stories/art/inspiration/band_design/3doorsdown.png");
+  background: url("../img/clem-onojeghuo-KxvbaIrK9sI-unsplash.jpeg");
   /* background: #e6ce1d; */
   height: 100%;
   width: 100%;
-  background-position: top center;
+  background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -157,11 +157,11 @@
   grid-row: 3 / 4;
 }
 #portfolio .portfolio-container .box.image5 .image {
-  background: url("https://images.squarespace-cdn.com/content/v1/5919861bdb29d6960a2b65ff/1541510250336-36RADSMAIRBCOURS93C7/ke17ZwdGBToddI8pDm48kGuhkFBJySH0A1hudOcuc3R7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UUnp3RS7iOrA0h_la_1n5SrShueKXrV5wYPn01lGU0E5ZtJ3qR9G2BYeA0wOAaeYNg/Screen+Shot+2018-11-06+at+13.16.55.png");
+  background: url("../img/egor-vikhrev-RSI9-LVlpkw-unsplash.jpeg");
   /* background: #e6ce1d; */
   height: 100%;
   width: 100%;
-  background-position: top center;
+  background-position: center 25%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -171,11 +171,11 @@
   grid-row: 3 / 4;
 }
 #portfolio .portfolio-container .box.image6 .image {
-  background: url("https://boreynhim.files.wordpress.com/2013/04/clean02.jpg");
+  background: url("../img/shio-yang-vIs2EUQOJm0-unsplash.jpeg");
   /* background: #e6ce1d; */
   height: 100%;
   width: 100%;
-  background-position: top center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
