@@ -1,0 +1,99 @@
+#skills {
+  padding: 80px 15px;
+}
+
+#skills .title {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#skills .title .circle {
+  background-color: #ffd60a;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+  top: 36px;
+}
+
+#skills .title h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  color: #202020;
+  letter-spacing: 4px;
+  word-spacing: 8px;
+}
+
+#skills .skills-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+#skills .skills-container .box {
+  background: rgba(228, 198, 133, 0);
+  transition: all 0.4s ease-in-out;
+  padding: 40px;
+}
+#skills .skills-container .box:hover {
+  /* background: #e6ce1d; */
+  background: white;
+  -webkit-box-shadow: 1px 16px 21px 13px rgba(0, 0, 0, 0.26);
+  box-shadow: 1px 16px 21px 13px rgba(0, 0, 0, 0.26);
+  cursor: pointer;
+}
+
+#skills .skills-container .box h5 {
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+}
+#skills .skills-container .box img {
+  height: 40px;
+  margin-bottom: 40px;
+}
+
+#skills .skills-container .box p {
+  color: #b3afaa;
+  line-height: 1.5;
+  font-size: 0.9rem;
+}
+#skills .skills-container .box.box-1 {
+  border-bottom: 4px solid #023047;
+}
+
+#skills .skills-container .box.box-2 {
+  border-bottom: 4px solid #219ebc;
+}
+
+#skills .skills-container .box.box-3 {
+  border-bottom: 4px solid #8ecae6;
+}
+
+@media only screen and (max-width: 960px) {
+  #skills .skills-container {
+    grid-template-columns: 100%;
+  }
+
+  #skills .skills-container .box {
+    /* background: #e6ce1d; */
+    background: white;
+    -webkit-box-shadow: 1px 16px 21px 13px rgba(0, 0, 0, 0.26);
+    box-shadow: 1px 16px 21px 13px rgba(0, 0, 0, 0.26);
+    cursor: pointer;
+  }
+
+}
+
+@media only screen and (max-width: 767px) {
+}
